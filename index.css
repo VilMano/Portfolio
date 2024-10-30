@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-size: 18px;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.top-header{
+    justify-content: center;
+    gap: 1rem;
+    background-color: #f4f4f4;
+}
+
+.personal-info{
+    gap: .2rem;
+}
+
+.sub-title{
+    font-size: .5rem;
+}
+
+.header{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    border-radius: 5px;
+    color: #2f2f2f;
+    gap: 0;
+}
+
+.vr{
+    width: .1rem;
+    background-color: rgba(0,0,0,.5);
+    margin: 0 .2rem;
+}
+
+.compact{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.m-0{
+    margin: 0;
+}
+
+.pl-1{
+    padding-left: .5rem;
+}
+
+h3{
+    margin-bottom: 0;
+}
+
+.position{
+    /*font-weight: bold;*/
+}
+
+.time{
+    font-size: .9rem;
+    opacity: .7;
+}
+
+.project{
+    padding: .5rem;
+}
+
+.stack > p{
+    font-weight: bold;
+}
+
+.br{
+    /*border-right: 1px solid black;*/
+}
+
+.table{
+    gap: .5rem;
+}
+
+.table-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*width: 100%;*/
+}
+
+.content{
+    padding: 1rem;
+}
+
+.title{
+    width: 100%;
+    border: 1px solid black;
+    padding: 0 1rem;
+}
+
+.content{
+    justify-content: space-around;
+    display: flex;
+}
+
+.backend, .frontend{
+    flex-grow: 1;
+}
+
+.content > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.tools{
+    flex-grow: 2;
+}
